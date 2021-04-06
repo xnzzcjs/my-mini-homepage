@@ -1,0 +1,41 @@
+.item5 {
+    position: relative;
+}
+.photo-box {
+    flex: 1;
+    padding: 10px;
+    font-family: 'Bazzi';
+    overflow: auto;
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 5px;
+}
+.photo-item {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.photo-title {
+    background-color: rgb(165, 245, 218);
+    border-radius: 6px;
+    height: 1.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.photo-pic {
+    padding: 10px 0px 10px 0px;
+}
+.photo-text {
+    padding: 10px 0px 10px 0px;
+}
+.photo-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+    border-radius: 6px;
+}
